@@ -1,0 +1,16 @@
+
+.git
+.venv
+data
+results
+training
+worker
+tests
+report
+cluster
+network
+storage
+tools
+models/v1
+__pycache__
+*.pyc

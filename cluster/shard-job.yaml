@@ -1,0 +1,40 @@
+﻿apiVersion: batch/v1
+kind: Job
+metadata:
+  name: shard-workers
+  namespace: pipeline
+spec:
+  completions: 2
+  parallelism: 2
+  completionMode: Indexed
+  backoffLimit: 2
+  template:
+    spec:
+      restartPolicy: Never
+      containers:
+        - name: worker
+          image: python:3.11-slim
+          command:
+            - /bin/sh
+            - -c
+            - pip install --quiet boto3 && python /scripts/shard_worker.py
+          env:
+            - name: SHARD_COUNT
+              value: "2"
+            - name: SHARD_ID
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.annotations['batch.kubernetes.io/job-completion-index']
+            - name: AWS_ACCESS_KEY_ID
+              value: admin
+            - name: AWS_SECRET_ACCESS_KEY
+              value: admin
+            - name: S3_ENDPOINT
+              value: http://seaweedfs.data.svc.cluster.local:8333
+          volumeMounts:
+            - name: scripts
+              mountPath: /scripts
+      volumes:
+        - name: scripts
+          configMap:
+            name: shard-worker-script

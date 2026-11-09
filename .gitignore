@@ -1,0 +1,14 @@
+﻿models/
+*.pt
+*.pth
+*.safetensors
+*.bin
+.venv/
+venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+results/
+data/
+*.zip

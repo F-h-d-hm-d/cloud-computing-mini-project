@@ -1,0 +1,18 @@
+﻿apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: cloud-parser-ingress
+  namespace: app
+spec:
+  ingressClassName: traefik
+  rules:
+    - host: parser.localhost
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: cloud-parser
+                port:
+                  number: 8000
