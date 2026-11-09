@@ -1,0 +1,3 @@
+model,total,json_validity_percent,exact_match_percent,field_accuracy_percent
+untrained,100,0.0,0.0,0.0
+trained_v1,100,100.0,36.0,77.0

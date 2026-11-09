@@ -1,0 +1,45 @@
+{"id": "C0004", "text": "is my calendar free for thursday", "label": {"intent": "check_availability", "date": "Thursday", "time": null, "place": null}}
+{"id": "C0005", "text": "do i have meeting with steve this week", "label": {"intent": "schedule_meeting", "date": "this week", "time": null, "place": null}}
+{"id": "C0006", "text": "is my schedule free today", "label": {"intent": "check_availability", "date": "today", "time": null, "place": null}}
+{"id": "C0007", "text": "remind me of my meeting tomorrow ten in the morning", "label": {"intent": "reminder", "date": "tomorrow", "time": "ten in the morning", "place": null}}
+{"id": "C0009", "text": "clear calendar events all", "label": {"intent": "clear calendar events", "date": null, "time": null, "place": null}}
+{"id": "C0010", "text": "set a weekly meeting for friday nine am", "label": {"intent": "set a weekly meeting", "date": "Friday", "time": "9 AM", "place": null}}
+{"id": "C0011", "text": "google do i have any appointments on my calendar for friday", "label": {"intent": "check_calendar", "date": "Friday", "time": null, "place": null}}
+{"id": "C0012", "text": "alexa mark my calendar as unavailable today", "label": {"intent": "Schedule Update", "date": "today", "time": "null", "place": "null"}}
+{"id": "C0013", "text": "set alarm for tomorrow at two pm", "label": {"intent": "set alarm", "date": "tomorrow", "time": "2 PM", "place": null}}
+{"id": "C0014", "text": "what's the weather like on friday", "label": {"intent": "weather forecast", "date": "Friday", "time": "unknown", "place": "unknown"}}
+{"id": "C0015", "text": "olly can you remind me about the gym class in two hours", "label": {"intent": "reminder", "date": "today's date", "time": "in two hours", "place": "gym"}}
+{"id": "C0016", "text": "let me see my alarms", "label": {"intent": "view alarms", "date": null, "time": null, "place": null}}
+{"id": "C0017", "text": "it's my mother's birthday today olly send me a notification every year on this date", "label": {"intent": "birthday reminder", "date": "today", "time": "null", "place": "null"}}
+{"id": "C0018", "text": "was there an appointment set up for saturday", "label": {"intent": "inquire about appointment", "date": "Saturday", "time": null, "place": null}}
+{"id": "C0019", "text": "what's the weather for the entire week", "label": {"intent": "weather forecast", "date": null, "time": null, "place": null}}
+{"id": "C0020", "text": "is this the hottest day in mangalore", "label": {"intent": "inquire_temperature", "date": null, "time": null, "place": "Mangalore"}}
+{"id": "C0021", "text": "what is the temperature right now", "label": {"intent": "check current temperature", "date": null, "time": null, "place": null}}
+{"id": "C0022", "text": "it is not going to rain is it", "label": {"intent": "weather forecast inquiry", "date": null, "time": null, "place": null}}
+{"id": "C0023", "text": "set an alarm for me for tomorrow at seven pm", "label": {"intent": "set an alarm", "date": "tomorrow", "time": "seven pm", "place": null}}
+{"id": "C0024", "text": "set my alarm for time", "label": {"intent": "set alarm", "time": null, "date": null, "place": null}}
+{"id": "C0025", "text": "what is happening", "label": {"intent": "inquire", "date": null, "time": null, "place": null}}
+{"id": "C0026", "text": "tell me any yard sales happening", "label": {"intent": "find yard sales", "date": null, "time": null, "place": null}}
+{"id": "C0027", "text": "add an event labeled dan's graduation party may fifth in goshen", "label": {"intent": "add event", "date": "fifth", "time": "null", "place": "Goshen"}}
+{"id": "C0028", "text": "what time is it in dallas", "label": {"intent": "check_time", "date": null, "time": null, "place": "Dallas"}}
+{"id": "C0029", "text": "clear all events from calendar", "label": {"intent": "clear events", "date": null, "time": null, "place": null}}
+{"id": "C0030", "text": "notify me when this meeting is close", "label": {"intent": "notification", "date": null, "time": null, "place": null}}
+{"id": "C0031", "text": "tell me current time", "label": {"intent": "get_time", "date": null, "time": null, "place": null}}
+{"id": "C0032", "text": "how many alarms do i have", "label": {"intent": "inquire_alarms", "date": null, "time": null, "place": null}}
+{"id": "C0033", "text": "what time and day is it today", "label": {"intent": "check current time and date", "date": "today", "time": null, "place": null}}
+{"id": "C0034", "text": "what's on my calendar tomorrow", "label": {"intent": "CheckCalendar", "date": "tomorrow", "time": null, "place": null}}
+{"id": "C0035", "text": "what's my calendar today", "label": {"intent": "check_calendar", "date": "today", "time": null, "place": null}}
+{"id": "C0036", "text": "what is the weather like in seattle", "label": {"intent": "weather_forecast", "date": null, "time": null, "place": "Seattle"}}
+{"id": "C0037", "text": "change alarm setting", "label": {"intent": "change alarm setting", "date": null, "time": null, "place": null}}
+{"id": "C0038", "text": "set a reminder for vacation next month", "label": {"intent": "set reminder", "date": "next month", "time": null, "place": null}}
+{"id": "C0039", "text": "do i have any alarms", "label": {"intent": "check alarms", "date": null, "time": null, "place": null}}
+{"id": "C0040", "text": "go to the next event in the calendar and delete it", "label": {"intent": "delete event", "date": null, "time": null, "place": null}}
+{"id": "C0041", "text": "what events are ongoing today in biloxi", "label": {"intent": "findEvents", "date": "today", "time": "allDay", "place": "Biloxi"}}
+{"id": "C0042", "text": "what alarms are upcoming", "label": {"intent": "check_alarms", "date": null, "time": null, "place": null}}
+{"id": "C0043", "text": "describe scheduled events", "label": {"intent": "inquire about scheduled events", "date": null, "time": null, "place": null}}
+{"id": "C0044", "text": "what time is it right now in pacific time", "label": {"intent": "current_time_query", "date": "null", "time": "current_time", "place": "Pacific Time Zone"}}
+{"id": "C0046", "text": "please set alarm to my mobile phones", "label": {"intent": "set alarm", "date": null, "time": null, "place": "mobile phones"}}
+{"id": "C0047", "text": "clean up my schedule", "label": {"intent": "organize schedule", "date": null, "time": null, "place": null}}
+{"id": "C0048", "text": "remove all scheduled events on my calendar please", "label": {"intent": "remove events", "date": null, "time": null, "place": null}}
+{"id": "C0049", "text": "alarm five pm", "label": {"intent": "set alarm", "time": "5 PM", "place": null, "date": null}}
+{"id": "C0050", "text": "what should i wear is it cold outside", "label": {"intent": "weather advice", "date": "null", "time": "null", "place": "current location"}}

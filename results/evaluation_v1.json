@@ -1,0 +1,16 @@
+[
+  {
+    "model": "untrained",
+    "total": 100,
+    "json_validity_percent": 0.0,
+    "exact_match_percent": 0.0,
+    "field_accuracy_percent": 0.0
+  },
+  {
+    "model": "trained_v1",
+    "total": 100,
+    "json_validity_percent": 100.0,
+    "exact_match_percent": 36.0,
+    "field_accuracy_percent": 77.0
+  }
+]

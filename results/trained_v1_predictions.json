@@ -1,0 +1,1702 @@
+[
+  {
+    "id": "V001",
+    "text": "remove the upcoming calendar event",
+    "expected": {
+      "intent": "calendar_remove",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "calendar_remove",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "raw": "{\"intent\": \"calendar_remove\", \"date\": null, \"time\": null, \"place\": null}"
+  },
+  {
+    "id": "V002",
+    "text": "need an alarm set for sunday at five in the morning",
+    "expected": {
+      "intent": "alarm_set",
+      "date": "sunday",
+      "time": "five",
+      "place": null
+    },
+    "prediction": {
+      "intent": "alarm_set",
+      "date": "sunday",
+      "time": "five in the morning",
+      "place": null
+    },
+    "raw": "{\"intent\": \"alarm_set\", \"date\": \"sunday\", \"time\": \"five in the morning\", \"place\": null}"
+  },
+  {
+    "id": "V003",
+    "text": "give me the time at washington right now",
+    "expected": {
+      "intent": "datetime_query",
+      "date": null,
+      "time": null,
+      "place": "washington"
+    },
+    "prediction": {
+      "intent": "datetime_query",
+      "date": "null",
+      "time": "current time",
+      "place": "Washington"
+    },
+    "raw": "{\"intent\": \"datetime_query\", \"date\": \"null\", \"time\": \"current time\", \"place\": \"Washington\"}"
+  },
+  {
+    "id": "V004",
+    "text": "what time does mondays meeting start",
+    "expected": {
+      "intent": "calendar_query",
+      "date": "mondays",
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "datetime_query",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "raw": "{\"intent\": \"datetime_query\", \"date\": null, \"time\": null, \"place\": null}"
+  },
+  {
+    "id": "V005",
+    "text": "set my alarm for tuesday at six pm",
+    "expected": {
+      "intent": "alarm_set",
+      "date": "tuesday",
+      "time": "six pm",
+      "place": null
+    },
+    "prediction": {
+      "intent": "alarm_set",
+      "date": "tuesday",
+      "time": "six pm",
+      "place": null
+    },
+    "raw": "{\"intent\": \"alarm_set\", \"date\": \"tuesday\", \"time\": \"six pm\", \"place\": null}"
+  },
+  {
+    "id": "V006",
+    "text": "remind me about my meeting this afternoon please",
+    "expected": {
+      "intent": "calendar_set",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "recommendation_events",
+      "date": "this afternoon",
+      "time": null,
+      "place": null
+    },
+    "raw": "{\"intent\": \"recommendation_events\", \"date\": \"this afternoon\", \"time\": null, \"place\": null}"
+  },
+  {
+    "id": "V007",
+    "text": "what day of the week is november fourteenth",
+    "expected": {
+      "intent": "datetime_query",
+      "date": "november fourteenth",
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "datetime_query",
+      "date": "day of the week",
+      "time": "4:00",
+      "place": null
+    },
+    "raw": "{\"intent\": \"datetime_query\", \"date\": \"day of the week\", \"time\": \"4:00\", \"place\": null}"
+  },
+  {
+    "id": "V008",
+    "text": "do i have any appointments this weekend",
+    "expected": {
+      "intent": "calendar_query",
+      "date": null,
+      "time": "weekend",
+      "place": null
+    },
+    "prediction": {
+      "intent": "calendar_query",
+      "date": "this weekend",
+      "time": null,
+      "place": null
+    },
+    "raw": "{\"intent\": \"calendar_query\", \"date\": \"this weekend\", \"time\": null, \"place\": null}"
+  },
+  {
+    "id": "V009",
+    "text": "what time is it in the central time zone",
+    "expected": {
+      "intent": "datetime_query",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "datetime_query",
+      "date": null,
+      "time": "central",
+      "place": "central"
+    },
+    "raw": "{\"intent\": \"datetime_query\", \"date\": null, \"time\": \"central\", \"place\": \"central\"}"
+  },
+  {
+    "id": "V010",
+    "text": "when is dale's birthday",
+    "expected": {
+      "intent": "calendar_query",
+      "date": "birthday",
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "recommendation_events",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "raw": "{\"intent\": \"recommendation_events\", \"date\": null, \"time\": null, \"place\": null}"
+  },
+  {
+    "id": "V011",
+    "text": "how's the weather going to be this week",
+    "expected": {
+      "intent": "weather_query",
+      "date": "this week",
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "weather_query",
+      "date": "this week",
+      "time": null,
+      "place": null
+    },
+    "raw": "{\"intent\": \"weather_query\", \"date\": \"this week\", \"time\": null, \"place\": null}"
+  },
+  {
+    "id": "V012",
+    "text": "give me the time in pst",
+    "expected": {
+      "intent": "datetime_query",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "datetime_query",
+      "date": null,
+      "time": "current time in Phoenix",
+      "place": "Phoenix"
+    },
+    "raw": "{\"intent\": \"datetime_query\", \"date\": null, \"time\": \"current time in Phoenix\", \"place\": \"Phoenix\"}"
+  },
+  {
+    "id": "V013",
+    "text": "any activity in the area",
+    "expected": {
+      "intent": "recommendation_events",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "recommendation_events",
+      "date": null,
+      "time": null,
+      "place": "area"
+    },
+    "raw": "{\"intent\": \"recommendation_events\", \"date\": null, \"time\": null, \"place\": \"area\"}"
+  },
+  {
+    "id": "V014",
+    "text": "read my next reminders for this afternoon",
+    "expected": {
+      "intent": "calendar_query",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "calendar_query",
+      "date": "this afternoon",
+      "time": null,
+      "place": null
+    },
+    "raw": "{\"intent\": \"calendar_query\", \"date\": \"this afternoon\", \"time\": null, \"place\": null}"
+  },
+  {
+    "id": "V015",
+    "text": "delete my whole calendar for today",
+    "expected": {
+      "intent": "calendar_remove",
+      "date": "today",
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "calendar_remove",
+      "date": "today",
+      "time": null,
+      "place": null
+    },
+    "raw": "{\"intent\": \"calendar_remove\", \"date\": \"today\", \"time\": null, \"place\": null}"
+  },
+  {
+    "id": "V016",
+    "text": "format data from calendar",
+    "expected": {
+      "intent": "calendar_remove",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "calendar_query",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "raw": "{\"intent\": \"calendar_query\", \"date\": null, \"time\": null, \"place\": null}"
+  },
+  {
+    "id": "V017",
+    "text": "wake me up at this time",
+    "expected": {
+      "intent": "alarm_set",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "alarm_set",
+      "date": "this time",
+      "time": null,
+      "place": null
+    },
+    "raw": "{\"intent\": \"alarm_set\", \"date\": \"this time\", \"time\": null, \"place\": null}"
+  },
+  {
+    "id": "V018",
+    "text": "remind me of my sister's birthday party tomorrow an hour before it starts",
+    "expected": {
+      "intent": "calendar_set",
+      "date": "tomorrow",
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "recommendation_events",
+      "date": "tomorrow",
+      "time": "an hour before",
+      "place": null
+    },
+    "raw": "{\"intent\": \"recommendation_events\", \"date\": \"tomorrow\", \"time\": \"an hour before\", \"place\": null}"
+  },
+  {
+    "id": "V019",
+    "text": "what time is the next event scheduled",
+    "expected": {
+      "intent": "calendar_query",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "datetime_query",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "raw": "{\"intent\": \"datetime_query\", \"date\": null, \"time\": null, \"place\": null}"
+  },
+  {
+    "id": "V020",
+    "text": "alexa state the weather in our city",
+    "expected": {
+      "intent": "weather_query",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "weather_query",
+      "date": null,
+      "time": null,
+      "place": "our city"
+    },
+    "raw": "{\"intent\": \"weather_query\", \"date\": null, \"time\": null, \"place\": \"our city\"}"
+  },
+  {
+    "id": "V021",
+    "text": "what's going on around me",
+    "expected": {
+      "intent": "recommendation_events",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "recommendation_events",
+      "date": null,
+      "time": null,
+      "place": "around me"
+    },
+    "raw": "{\"intent\": \"recommendation_events\", \"date\": null, \"time\": null, \"place\": \"around me\"}"
+  },
+  {
+    "id": "V022",
+    "text": "remind me for making call to all participants",
+    "expected": {
+      "intent": "calendar_set",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "recommendation_events",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "raw": "{\"intent\": \"recommendation_events\", \"date\": null, \"time\": null, \"place\": null}"
+  },
+  {
+    "id": "V023",
+    "text": "set bob's birthday for every june third",
+    "expected": {
+      "intent": "calendar_set",
+      "date": "every june third",
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "calendar_set",
+      "date": "every june third",
+      "time": null,
+      "place": "wy'dinner"
+    },
+    "raw": "{\"intent\": \"calendar_set\", \"date\": \"every june third\", \"time\": null, \"place\": \"wy'dinner\"}"
+  },
+  {
+    "id": "V024",
+    "text": "what date is justin's school play",
+    "expected": {
+      "intent": "calendar_query",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "recommendation_events",
+      "date": null,
+      "time": null,
+      "place": "school"
+    },
+    "raw": "{\"intent\": \"recommendation_events\", \"date\": null, \"time\": null, \"place\": \"school\"}"
+  },
+  {
+    "id": "V025",
+    "text": "what time is it now in new york",
+    "expected": {
+      "intent": "datetime_query",
+      "date": null,
+      "time": null,
+      "place": "new york"
+    },
+    "prediction": {
+      "intent": "datetime_query",
+      "date": "null",
+      "time": "now in New York",
+      "place": "New York"
+    },
+    "raw": "{\"intent\": \"datetime_query\", \"date\": \"null\", \"time\": \"now in New York\", \"place\": \"New York\"}"
+  },
+  {
+    "id": "V026",
+    "text": "what is the five days forecast looking like in new york city",
+    "expected": {
+      "intent": "weather_query",
+      "date": "five days",
+      "time": null,
+      "place": "new york city"
+    },
+    "prediction": {
+      "intent": "weather_query",
+      "date": null,
+      "time": null,
+      "place": "New York City"
+    },
+    "raw": "{\"intent\": \"weather_query\", \"date\": null, \"time\": null, \"place\": \"New York City\"}"
+  },
+  {
+    "id": "V027",
+    "text": "what meetings are on my calendar today",
+    "expected": {
+      "intent": "calendar_query",
+      "date": "today",
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "calendar_query",
+      "date": "today",
+      "time": null,
+      "place": null
+    },
+    "raw": "{\"intent\": \"calendar_query\", \"date\": \"today\", \"time\": null, \"place\": null}"
+  },
+  {
+    "id": "V028",
+    "text": "what is the weather at home",
+    "expected": {
+      "intent": "weather_query",
+      "date": null,
+      "time": null,
+      "place": "home"
+    },
+    "prediction": {
+      "intent": "weather_query",
+      "date": null,
+      "time": null,
+      "place": "home"
+    },
+    "raw": "{\"intent\": \"weather_query\", \"date\": null, \"time\": null, \"place\": \"home\"}"
+  },
+  {
+    "id": "V029",
+    "text": "what alarms are on right now",
+    "expected": {
+      "intent": "alarm_query",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "alarm_query",
+      "date": "right now",
+      "time": null,
+      "place": null
+    },
+    "raw": "{\"intent\": \"alarm_query\", \"date\": \"right now\", \"time\": null, \"place\": null}"
+  },
+  {
+    "id": "V030",
+    "text": "set alarm at ten am",
+    "expected": {
+      "intent": "alarm_set",
+      "date": null,
+      "time": "ten am",
+      "place": null
+    },
+    "prediction": {
+      "intent": "alarm_set",
+      "date": null,
+      "time": "ten am",
+      "place": null
+    },
+    "raw": "{\"intent\": \"alarm_set\", \"date\": null, \"time\": \"ten am\", \"place\": null}"
+  },
+  {
+    "id": "V031",
+    "text": "fun things to do today",
+    "expected": {
+      "intent": "recommendation_events",
+      "date": "today",
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "recommendation_events",
+      "date": "today",
+      "time": null,
+      "place": null
+    },
+    "raw": "{\"intent\": \"recommendation_events\", \"date\": \"today\", \"time\": null, \"place\": null}"
+  },
+  {
+    "id": "V032",
+    "text": "how many days are left in this year",
+    "expected": {
+      "intent": "datetime_query",
+      "date": "this year",
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "datetime_query",
+      "date": "this year",
+      "time": null,
+      "place": null
+    },
+    "raw": "{\"intent\": \"datetime_query\", \"date\": \"this year\", \"time\": null, \"place\": null}"
+  },
+  {
+    "id": "V033",
+    "text": "set an eight hundred am alarm for next tuesday",
+    "expected": {
+      "intent": "alarm_set",
+      "date": "tuesday",
+      "time": "eight hundred am",
+      "place": null
+    },
+    "prediction": {
+      "intent": "alarm_set",
+      "time": "eight hundred am",
+      "place": null,
+      "date": "next tuesday"
+    },
+    "raw": "{\"intent\": \"alarm_set\", \"time\": \"eight hundred am\", \"place\": null, \"date\": \"next tuesday\", \"date\": \"next tuesday\", \"place\": null}"
+  },
+  {
+    "id": "V034",
+    "text": "do i have any new tinder matches",
+    "expected": {
+      "intent": "calendar_query",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "recommendation_events",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "raw": "{\"intent\": \"recommendation_events\", \"date\": null, \"time\": null, \"place\": null}"
+  },
+  {
+    "id": "V035",
+    "text": "remind me about my alarms today",
+    "expected": {
+      "intent": "alarm_query",
+      "date": "today",
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "alarm_query",
+      "date": "today",
+      "time": null,
+      "place": null
+    },
+    "raw": "{\"intent\": \"alarm_query\", \"date\": \"today\", \"time\": null, \"place\": null}"
+  },
+  {
+    "id": "V036",
+    "text": "is my alarm set for seven am",
+    "expected": {
+      "intent": "alarm_set",
+      "date": null,
+      "time": "seven am",
+      "place": null
+    },
+    "prediction": {
+      "intent": "alarm_query",
+      "date": null,
+      "time": "seven am",
+      "place": null
+    },
+    "raw": "{\"intent\": \"alarm_query\", \"date\": null, \"time\": \"seven am\", \"place\": null}"
+  },
+  {
+    "id": "V037",
+    "text": "remind me about the office meeting tomorrow at seven",
+    "expected": {
+      "intent": "calendar_set",
+      "date": "tomorrow",
+      "time": "seven",
+      "place": null
+    },
+    "prediction": {
+      "intent": "recommendation_events",
+      "date": "tomorrow",
+      "time": "seven",
+      "place": null
+    },
+    "raw": "{\"intent\": \"recommendation_events\", \"date\": \"tomorrow\", \"time\": \"seven\", \"place\": null}"
+  },
+  {
+    "id": "V038",
+    "text": "can you set the event for monday at six at mcdonalds",
+    "expected": {
+      "intent": "calendar_set",
+      "date": "monday",
+      "time": "six",
+      "place": "mcdonalds"
+    },
+    "prediction": {
+      "intent": "calendar_set",
+      "date": "monday",
+      "time": "six",
+      "place": "mcdonalds"
+    },
+    "raw": "{\"intent\": \"calendar_set\", \"date\": \"monday\", \"time\": \"six\", \"place\": \"mcdonalds\"}"
+  },
+  {
+    "id": "V039",
+    "text": "i am no longer going to wyatts birthday party",
+    "expected": {
+      "intent": "calendar_remove",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "recommendation_events",
+      "date": null,
+      "time": null,
+      "place": "wyattening party"
+    },
+    "raw": "{\"intent\": \"recommendation_events\", \"date\": null, \"time\": null, \"place\": \"wyattening party\"}"
+  },
+  {
+    "id": "V040",
+    "text": "set an alarm in an hour's time",
+    "expected": {
+      "intent": "alarm_set",
+      "date": null,
+      "time": "hour's time",
+      "place": null
+    },
+    "prediction": {
+      "intent": "alarm_set",
+      "time": "an hour",
+      "date": "null",
+      "place": "null"
+    },
+    "raw": "{\"intent\": \"alarm_set\", \"time\": \"an hour\", \"date\": \"null\", \"place\": \"null\"}"
+  },
+  {
+    "id": "V041",
+    "text": "olly what time is it in california",
+    "expected": {
+      "intent": "datetime_query",
+      "date": null,
+      "time": null,
+      "place": "california"
+    },
+    "prediction": {
+      "intent": "datetime_query",
+      "date": null,
+      "time": null,
+      "place": "California"
+    },
+    "raw": "{\"intent\": \"datetime_query\", \"date\": null, \"time\": null, \"place\": \"California\"}"
+  },
+  {
+    "id": "V042",
+    "text": "what time is it in beijing",
+    "expected": {
+      "intent": "datetime_query",
+      "date": null,
+      "time": null,
+      "place": "beijing"
+    },
+    "prediction": {
+      "intent": "datetime_query",
+      "date": null,
+      "time": null,
+      "place": "Beijing"
+    },
+    "raw": "{\"intent\": \"datetime_query\", \"date\": null, \"time\": null, \"place\": \"Beijing\"}"
+  },
+  {
+    "id": "V043",
+    "text": "list my different alarm",
+    "expected": {
+      "intent": "alarm_query",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "alarm_query",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "raw": "{\"intent\": \"alarm_query\", \"date\": null, \"time\": null, \"place\": null}"
+  },
+  {
+    "id": "V044",
+    "text": "what day is the fifteenth",
+    "expected": {
+      "intent": "datetime_query",
+      "date": "the fifteenth",
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "datetime_query",
+      "date": "fifteenth",
+      "time": null,
+      "place": null
+    },
+    "raw": "{\"intent\": \"datetime_query\", \"date\": \"fifteenth\", \"time\": null, \"place\": null}"
+  },
+  {
+    "id": "V045",
+    "text": "set an alarm for next tuesdays meeting",
+    "expected": {
+      "intent": "alarm_set",
+      "date": "tuesdays",
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "alarm_set",
+      "date": "next tuesdays",
+      "time": null,
+      "place": null
+    },
+    "raw": "{\"intent\": \"alarm_set\", \"date\": \"next tuesdays\", \"time\": null, \"place\": null}"
+  },
+  {
+    "id": "V046",
+    "text": "who will be attending the meeting this friday",
+    "expected": {
+      "intent": "calendar_query",
+      "date": "this friday",
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "recommendation_events",
+      "date": "this friday",
+      "time": null,
+      "place": null
+    },
+    "raw": "{\"intent\": \"recommendation_events\", \"date\": \"this friday\", \"time\": null, \"place\": null}"
+  },
+  {
+    "id": "V047",
+    "text": "what are the show timings",
+    "expected": {
+      "intent": "calendar_query",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "recommendation_events",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "raw": "{\"intent\": \"recommendation_events\", \"date\": null, \"time\": null, \"place\": null}"
+  },
+  {
+    "id": "V048",
+    "text": "remove my event at one pm in my calendar",
+    "expected": {
+      "intent": "calendar_remove",
+      "date": null,
+      "time": "one pm",
+      "place": null
+    },
+    "prediction": {
+      "intent": "calendar_remove",
+      "date": null,
+      "time": "one pm",
+      "place": null
+    },
+    "raw": "{\"intent\": \"calendar_remove\", \"date\": null, \"time\": \"one pm\", \"place\": null}"
+  },
+  {
+    "id": "V049",
+    "text": "what is the address for the event scheduled on the first of january alexa",
+    "expected": {
+      "intent": "calendar_query",
+      "date": "first of january",
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "recommendation_events",
+      "date": "first of january",
+      "time": null,
+      "place": null
+    },
+    "raw": "{\"intent\": \"recommendation_events\", \"date\": \"first of january\", \"time\": null, \"place\": null}"
+  },
+  {
+    "id": "V050",
+    "text": "add on my calendar for today joe smith at one pm",
+    "expected": {
+      "intent": "calendar_set",
+      "date": "today",
+      "time": "one pm",
+      "place": null
+    },
+    "prediction": {
+      "intent": "calendar_set",
+      "date": "today",
+      "time": "one pm",
+      "place": null
+    },
+    "raw": "{\"intent\": \"calendar_set\", \"date\": \"today\", \"time\": \"one pm\", \"place\": null}"
+  },
+  {
+    "id": "V051",
+    "text": "can you tell me about the alarm called bed",
+    "expected": {
+      "intent": "alarm_query",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "alarm_query",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "raw": "{\"intent\": \"alarm_query\", \"date\": null, \"time\": null, \"place\": null}"
+  },
+  {
+    "id": "V052",
+    "text": "what kind of musical events are happening around here this week",
+    "expected": {
+      "intent": "recommendation_events",
+      "date": "this week",
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "recommendation_events",
+      "date": "this week",
+      "time": null,
+      "place": "here"
+    },
+    "raw": "{\"intent\": \"recommendation_events\", \"date\": \"this week\", \"time\": null, \"place\": \"here\"}"
+  },
+  {
+    "id": "V053",
+    "text": "tell me about things to do in london",
+    "expected": {
+      "intent": "recommendation_events",
+      "date": null,
+      "time": null,
+      "place": "london"
+    },
+    "prediction": {
+      "intent": "recommendation_events",
+      "date": null,
+      "time": null,
+      "place": "london"
+    },
+    "raw": "{\"intent\": \"recommendation_events\", \"date\": null, \"time\": null, \"place\": \"london\"}"
+  },
+  {
+    "id": "V054",
+    "text": "set an alarm for four pm tuesday",
+    "expected": {
+      "intent": "alarm_set",
+      "date": "tuesday",
+      "time": "four pm",
+      "place": null
+    },
+    "prediction": {
+      "intent": "alarm_set",
+      "time": "four pm",
+      "place": null,
+      "date": null
+    },
+    "raw": "{\"intent\": \"alarm_set\", \"time\": \"four pm\", \"place\": null, \"date\": \"tuesday\", \"date\": null}"
+  },
+  {
+    "id": "V055",
+    "text": "what will be weather for tomorrow in mumbai",
+    "expected": {
+      "intent": "weather_query",
+      "date": "tomorrow",
+      "time": null,
+      "place": "mumbai"
+    },
+    "prediction": {
+      "intent": "weather_query",
+      "date": "tomorrow",
+      "time": null,
+      "place": "Mumbai"
+    },
+    "raw": "{\"intent\": \"weather_query\", \"date\": \"tomorrow\", \"time\": null, \"place\": \"Mumbai\"}"
+  },
+  {
+    "id": "V056",
+    "text": "what's interesting around here",
+    "expected": {
+      "intent": "recommendation_events",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "recommendation_events",
+      "date": null,
+      "time": null,
+      "place": "here"
+    },
+    "raw": "{\"intent\": \"recommendation_events\", \"date\": null, \"time\": null, \"place\": \"here\"}"
+  },
+  {
+    "id": "V057",
+    "text": "remove the hip show from my schedule on april second",
+    "expected": {
+      "intent": "calendar_remove",
+      "date": "april second",
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "calendar_remove",
+      "date": "april second",
+      "time": null,
+      "place": null
+    },
+    "raw": "{\"intent\": \"calendar_remove\", \"date\": \"april second\", \"time\": null, \"place\": null}"
+  },
+  {
+    "id": "V058",
+    "text": "tap start and then select settings",
+    "expected": {
+      "intent": "alarm_query",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "calendar_set",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "raw": "{\"intent\": \"calendar_set\", \"date\": null, \"time\": null, \"place\": null}"
+  },
+  {
+    "id": "V059",
+    "text": "what day of the week is the twenty second march",
+    "expected": {
+      "intent": "datetime_query",
+      "date": "twenty second march",
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "datetime_query",
+      "date": "twenty second",
+      "time": null,
+      "place": null
+    },
+    "raw": "{\"intent\": \"datetime_query\", \"date\": \"twenty second\", \"time\": null, \"place\": null}"
+  },
+  {
+    "id": "V060",
+    "text": "what events are going on near me",
+    "expected": {
+      "intent": "recommendation_events",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "recommendation_events",
+      "date": null,
+      "time": null,
+      "place": "near me"
+    },
+    "raw": "{\"intent\": \"recommendation_events\", \"date\": null, \"time\": null, \"place\": \"near me\"}"
+  },
+  {
+    "id": "V061",
+    "text": "should i bring warm clothes",
+    "expected": {
+      "intent": "weather_query",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "recommendation_events",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "raw": "{\"intent\": \"recommendation_events\", \"date\": null, \"time\": null, \"place\": null}"
+  },
+  {
+    "id": "V062",
+    "text": "clear my schedule for today",
+    "expected": {
+      "intent": "calendar_remove",
+      "date": "today",
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "calendar_remove",
+      "date": "today",
+      "time": null,
+      "place": null
+    },
+    "raw": "{\"intent\": \"calendar_remove\", \"date\": \"today\", \"time\": null, \"place\": null}"
+  },
+  {
+    "id": "V063",
+    "text": "tell me about the events near me",
+    "expected": {
+      "intent": "recommendation_events",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "recommendation_events",
+      "date": null,
+      "time": null,
+      "place": "near me"
+    },
+    "raw": "{\"intent\": \"recommendation_events\", \"date\": null, \"time\": null, \"place\": \"near me\"}"
+  },
+  {
+    "id": "V064",
+    "text": "is the farmers market open this weekend in iowa",
+    "expected": {
+      "intent": "recommendation_events",
+      "date": "this weekend",
+      "time": null,
+      "place": "iowa"
+    },
+    "prediction": {
+      "intent": "recommendation_events",
+      "date": "this weekend",
+      "time": null,
+      "place": "iowa"
+    },
+    "raw": "{\"intent\": \"recommendation_events\", \"date\": \"this weekend\", \"time\": null, \"place\": \"iowa\"}"
+  },
+  {
+    "id": "V065",
+    "text": "show me upcoming events in the quad cities",
+    "expected": {
+      "intent": "recommendation_events",
+      "date": null,
+      "time": null,
+      "place": "quad cities"
+    },
+    "prediction": {
+      "intent": "recommendation_events",
+      "date": null,
+      "time": null,
+      "place": "Uscars"
+    },
+    "raw": "{\"intent\": \"recommendation_events\", \"date\": null, \"time\": null, \"place\": \"Uscars\"}"
+  },
+  {
+    "id": "V066",
+    "text": "remind me at this time",
+    "expected": {
+      "intent": "calendar_set",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "recommendation_events",
+      "date": "this time",
+      "time": null,
+      "place": null
+    },
+    "raw": "{\"intent\": \"recommendation_events\", \"date\": \"this time\", \"time\": null, \"place\": null}"
+  },
+  {
+    "id": "V067",
+    "text": "is weather normal today",
+    "expected": {
+      "intent": "weather_query",
+      "date": "today",
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "weather_query",
+      "date": "today",
+      "time": null,
+      "place": null
+    },
+    "raw": "{\"intent\": \"weather_query\", \"date\": \"today\", \"time\": null, \"place\": null}"
+  },
+  {
+    "id": "V068",
+    "text": "what alarms are set for this week",
+    "expected": {
+      "intent": "alarm_query",
+      "date": "this week",
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "alarm_query",
+      "date": "this week",
+      "time": null,
+      "place": null
+    },
+    "raw": "{\"intent\": \"alarm_query\", \"date\": \"this week\", \"time\": null, \"place\": null}"
+  },
+  {
+    "id": "V069",
+    "text": "things to do in my area",
+    "expected": {
+      "intent": "recommendation_events",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "recommendation_events",
+      "date": null,
+      "time": null,
+      "place": "my area"
+    },
+    "raw": "{\"intent\": \"recommendation_events\", \"date\": null, \"time\": null, \"place\": \"my area\"}"
+  },
+  {
+    "id": "V070",
+    "text": "will it rain on friday",
+    "expected": {
+      "intent": "weather_query",
+      "date": "friday",
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "weather_query",
+      "date": "friday",
+      "time": null,
+      "place": null
+    },
+    "raw": "{\"intent\": \"weather_query\", \"date\": \"friday\", \"time\": null, \"place\": null}"
+  },
+  {
+    "id": "V071",
+    "text": "olly can you please add my dinner reservations to my calendar",
+    "expected": {
+      "intent": "calendar_set",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "calendar_set",
+      "date": null,
+      "time": null,
+      "place": "dinner reservations"
+    },
+    "raw": "{\"intent\": \"calendar_set\", \"date\": null, \"time\": null, \"place\": \"dinner reservations\"}"
+  },
+  {
+    "id": "V072",
+    "text": "let me know if there is a town meeting monday",
+    "expected": {
+      "intent": "calendar_query",
+      "date": "monday",
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "recommendation_events",
+      "date": "monday",
+      "time": null,
+      "place": null
+    },
+    "raw": "{\"intent\": \"recommendation_events\", \"date\": \"monday\", \"time\": null, \"place\": null}"
+  },
+  {
+    "id": "V073",
+    "text": "erase all content in my calendar",
+    "expected": {
+      "intent": "calendar_remove",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "calendar_remove",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "raw": "{\"intent\": \"calendar_remove\", \"date\": null, \"time\": null, \"place\": null}"
+  },
+  {
+    "id": "V074",
+    "text": "what is the date next saturday",
+    "expected": {
+      "intent": "datetime_query",
+      "date": "saturday",
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "datetime_query",
+      "date": "next saturday",
+      "time": null,
+      "place": null
+    },
+    "raw": "{\"intent\": \"datetime_query\", \"date\": \"next saturday\", \"time\": null, \"place\": null}"
+  },
+  {
+    "id": "V075",
+    "text": "find and delete all of my weekend events with evan parker",
+    "expected": {
+      "intent": "calendar_remove",
+      "date": null,
+      "time": "weekend",
+      "place": null
+    },
+    "prediction": {
+      "intent": "calendar_remove",
+      "date": "every single of my weekend",
+      "time": null,
+      "place": "meeting location"
+    },
+    "raw": "{\"intent\": \"calendar_remove\", \"date\": \"every single of my weekend\", \"time\": null, \"place\": \"meeting location\"}"
+  },
+  {
+    "id": "V076",
+    "text": "alarm for ten am",
+    "expected": {
+      "intent": "alarm_set",
+      "date": null,
+      "time": "ten am",
+      "place": null
+    },
+    "prediction": {
+      "intent": "alarm_set",
+      "date": "ten am",
+      "time": "ten am",
+      "place": null
+    },
+    "raw": "{\"intent\": \"alarm_set\", \"date\": \"ten am\", \"time\": \"ten am\", \"place\": null}"
+  },
+  {
+    "id": "V077",
+    "text": "how many other bands will be performing at the zach brown concert on june third",
+    "expected": {
+      "intent": "calendar_query",
+      "date": "june third",
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "recommendation_events",
+      "date": "June first",
+      "time": null,
+      "place": "Zach Brown concert"
+    },
+    "raw": "{\"intent\": \"recommendation_events\", \"date\": \"June first\", \"time\": null, \"place\": \"Zach Brown concert\"}"
+  },
+  {
+    "id": "V078",
+    "text": "set reminder for meeting with john on wednesday at nine am",
+    "expected": {
+      "intent": "calendar_set",
+      "date": "wednesday",
+      "time": "nine am",
+      "place": null
+    },
+    "prediction": {
+      "intent": "calendar_set",
+      "date": "wednesday",
+      "time": "nine am",
+      "place": null
+    },
+    "raw": "{\"intent\": \"calendar_set\", \"date\": \"wednesday\", \"time\": \"nine am\", \"place\": null}"
+  },
+  {
+    "id": "V079",
+    "text": "what is there to do in new york city",
+    "expected": {
+      "intent": "recommendation_events",
+      "date": null,
+      "time": null,
+      "place": "new york city"
+    },
+    "prediction": {
+      "intent": "recommendation_events",
+      "date": null,
+      "time": null,
+      "place": "New York City"
+    },
+    "raw": "{\"intent\": \"recommendation_events\", \"date\": null, \"time\": null, \"place\": \"New York City\"}"
+  },
+  {
+    "id": "V080",
+    "text": "please list active alarms",
+    "expected": {
+      "intent": "alarm_query",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "alarm_query",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "raw": "{\"intent\": \"alarm_query\", \"date\": null, \"time\": null, \"place\": null}"
+  },
+  {
+    "id": "V081",
+    "text": "what day will it be sunny",
+    "expected": {
+      "intent": "weather_query",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "weather_query",
+      "date": "today",
+      "time": null,
+      "place": null
+    },
+    "raw": "{\"intent\": \"weather_query\", \"date\": \"today\", \"time\": null, \"place\": null}"
+  },
+  {
+    "id": "V082",
+    "text": "tell me time of alarm you set",
+    "expected": {
+      "intent": "alarm_query",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "alarm_query",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "raw": "{\"intent\": \"alarm_query\", \"date\": null, \"time\": null, \"place\": null}"
+  },
+  {
+    "id": "V083",
+    "text": "do i need to take the umbrella out today",
+    "expected": {
+      "intent": "weather_query",
+      "date": "today",
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "weather_query",
+      "date": "today",
+      "time": null,
+      "place": null
+    },
+    "raw": "{\"intent\": \"weather_query\", \"date\": \"today\", \"time\": null, \"place\": null}"
+  },
+  {
+    "id": "V084",
+    "text": "can you tell me what alarms i have set",
+    "expected": {
+      "intent": "alarm_query",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "alarm_query",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "raw": "{\"intent\": \"alarm_query\", \"date\": null, \"time\": null, \"place\": null}"
+  },
+  {
+    "id": "V085",
+    "text": "hi to all",
+    "expected": {
+      "intent": "calendar_set",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "calendar_query",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "raw": "{\"intent\": \"calendar_query\", \"date\": null, \"time\": null, \"place\": null}"
+  },
+  {
+    "id": "V086",
+    "text": "olly remind me about my next meeting a few hours ahead of time",
+    "expected": {
+      "intent": "calendar_set",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "calendar_query",
+      "date": "null",
+      "time": "null",
+      "place": "null"
+    },
+    "raw": "{\"intent\": \"calendar_query\", \"date\": \"null\", \"time\": \"null\", \"place\": \"null\"}"
+  },
+  {
+    "id": "V087",
+    "text": "please remove the doctor appointment in my calendar for february twelfth at nine am",
+    "expected": {
+      "intent": "calendar_remove",
+      "date": "february twelfth",
+      "time": "nine am",
+      "place": null
+    },
+    "prediction": {
+      "intent": "calendar_remove",
+      "date": "May 23",
+      "time": "nine am",
+      "place": null
+    },
+    "raw": "{\"intent\": \"calendar_remove\", \"date\": \"May 23\", \"time\": \"nine am\", \"place\": null}"
+  },
+  {
+    "id": "V088",
+    "text": "please read me my alarms",
+    "expected": {
+      "intent": "alarm_query",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "alarm_query",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "raw": "{\"intent\": \"alarm_query\", \"date\": null, \"time\": null, \"place\": null}"
+  },
+  {
+    "id": "V089",
+    "text": "remind me at six thirty pm",
+    "expected": {
+      "intent": "alarm_set",
+      "date": null,
+      "time": "six thirty pm",
+      "place": null
+    },
+    "prediction": {
+      "intent": "alarm_set",
+      "time": "six thirty pm",
+      "place": null,
+      "date": null
+    },
+    "raw": "{\"intent\": \"alarm_set\", \"time\": \"six thirty pm\", \"place\": null, \"date\": null}"
+  },
+  {
+    "id": "V090",
+    "text": "i need to set an alarm for next friday at noon",
+    "expected": {
+      "intent": "alarm_set",
+      "date": "friday",
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "alarm_set",
+      "date": "next friday",
+      "time": "noon",
+      "place": null
+    },
+    "raw": "{\"intent\": \"alarm_set\", \"date\": \"next friday\", \"time\": \"noon\", \"place\": null}"
+  },
+  {
+    "id": "V091",
+    "text": "what is the time in paris",
+    "expected": {
+      "intent": "datetime_query",
+      "date": null,
+      "time": null,
+      "place": "paris"
+    },
+    "prediction": {
+      "intent": "datetime_query",
+      "date": null,
+      "time": "current time in Paris",
+      "place": "paris"
+    },
+    "raw": "{\"intent\": \"datetime_query\", \"date\": null, \"time\": \"current time in Paris\", \"place\": \"paris\"}"
+  },
+  {
+    "id": "V092",
+    "text": "add a meeting with francine for two pm tomorrow",
+    "expected": {
+      "intent": "calendar_set",
+      "date": "tomorrow",
+      "time": "two pm",
+      "place": null
+    },
+    "prediction": {
+      "intent": "calendar_set",
+      "date": "tomorrow",
+      "time": "two pm",
+      "place": null
+    },
+    "raw": "{\"intent\": \"calendar_set\", \"date\": \"tomorrow\", \"time\": \"two pm\", \"place\": null}"
+  },
+  {
+    "id": "V093",
+    "text": "did i set an alarm to wake up in the morning",
+    "expected": {
+      "intent": "alarm_query",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "alarm_set",
+      "date": null,
+      "time": "morning",
+      "place": null
+    },
+    "raw": "{\"intent\": \"alarm_set\", \"date\": null, \"time\": \"morning\", \"place\": null}"
+  },
+  {
+    "id": "V094",
+    "text": "will there be snow this week",
+    "expected": {
+      "intent": "weather_query",
+      "date": "this week",
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "weather_query",
+      "date": "this week",
+      "time": null,
+      "place": null
+    },
+    "raw": "{\"intent\": \"weather_query\", \"date\": \"this week\", \"time\": null, \"place\": null}"
+  },
+  {
+    "id": "V095",
+    "text": "can you set my alarm for seven thirty am",
+    "expected": {
+      "intent": "alarm_set",
+      "date": null,
+      "time": "seven thirty am",
+      "place": null
+    },
+    "prediction": {
+      "intent": "alarm_set",
+      "time": "seven thirty am",
+      "place": null,
+      "date": null
+    },
+    "raw": "{\"intent\": \"alarm_set\", \"time\": \"seven thirty am\", \"place\": null, \"date\": null}"
+  },
+  {
+    "id": "V096",
+    "text": "how is the weather in this week",
+    "expected": {
+      "intent": "weather_query",
+      "date": "this week",
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "weather_query",
+      "date": "this week",
+      "time": null,
+      "place": null
+    },
+    "raw": "{\"intent\": \"weather_query\", \"date\": \"this week\", \"time\": null, \"place\": null}"
+  },
+  {
+    "id": "V097",
+    "text": "do i have any alarms set",
+    "expected": {
+      "intent": "alarm_query",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "alarm_query",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "raw": "{\"intent\": \"alarm_query\", \"date\": null, \"time\": null, \"place\": null}"
+  },
+  {
+    "id": "V098",
+    "text": "delete the next event on the calendar",
+    "expected": {
+      "intent": "calendar_remove",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "calendar_remove",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "raw": "{\"intent\": \"calendar_remove\", \"date\": null, \"time\": null, \"place\": null}"
+  },
+  {
+    "id": "V099",
+    "text": "just to confirm you set the alarm to go off at eight hundred",
+    "expected": {
+      "intent": "alarm_query",
+      "date": null,
+      "time": "eight hundred",
+      "place": null
+    },
+    "prediction": {
+      "intent": "alarm_set",
+      "time": "eight hundred and one",
+      "place": null,
+      "date": null
+    },
+    "raw": "{\"intent\": \"alarm_set\", \"time\": \"eight hundred and one\", \"place\": null, \"date\": null}"
+  },
+  {
+    "id": "V100",
+    "text": "remove upcoming task",
+    "expected": {
+      "intent": "calendar_remove",
+      "date": null,
+      "time": null,
+      "place": null
+    },
+    "prediction": {
+      "intent": "calendar_remove",
+      "date": "upcoming",
+      "time": null,
+      "place": null
+    },
+    "raw": "{\"intent\": \"calendar_remove\", \"date\": \"upcoming\", \"time\": null, \"place\": null}"
+  }
+]
